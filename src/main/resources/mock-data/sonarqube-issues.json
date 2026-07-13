@@ -1,0 +1,1202 @@
+﻿[
+    {
+        "description":  "A LOW severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "LOW",
+        "title":  "Insecure Deserialization in AuthService.java"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in FileUploader.java"
+    },
+    {
+        "description":  "A MEDIUM severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "MEDIUM",
+        "title":  "Cross-Site Scripting (XSS) in AuthService.java"
+    },
+    {
+        "description":  "A HIGH severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "SQL Injection in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in FileUploader.java"
+    },
+    {
+        "description":  "A MEDIUM severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "MEDIUM",
+        "title":  "SQL Injection in FileUploader.java"
+    },
+    {
+        "description":  "A LOW severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "SQL Injection in DataParser.java"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in config.yml"
+    },
+    {
+        "description":  "A LOW severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "LOW",
+        "title":  "Insecure Deserialization in FileUploader.java"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in application.properties"
+    },
+    {
+        "description":  "A LOW severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A MEDIUM severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "MEDIUM",
+        "title":  "Cross-Site Scripting (XSS) in UserController.java"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in FileUploader.java"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "CRITICAL",
+        "title":  "Insecure Deserialization in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "HIGH",
+        "title":  "Insecure Deserialization in UserController.java"
+    },
+    {
+        "description":  "A CRITICAL severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "CRITICAL",
+        "title":  "Cross-Site Scripting (XSS) in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in UserController.java"
+    },
+    {
+        "description":  "A MEDIUM severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "MEDIUM",
+        "title":  "Path Traversal in FileUploader.java"
+    },
+    {
+        "description":  "A CRITICAL severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "CRITICAL",
+        "title":  "SQL Injection in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Command Injection in application.properties"
+    },
+    {
+        "description":  "A LOW severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Cross-Site Scripting (XSS) in UserController.java"
+    },
+    {
+        "description":  "A MEDIUM severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "MEDIUM",
+        "title":  "SQL Injection in DataParser.java"
+    },
+    {
+        "description":  "A HIGH severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "HIGH",
+        "title":  "Missing XML Validation in FileUploader.java"
+    },
+    {
+        "description":  "A LOW severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "Cross-Site Scripting (XSS) in DataParser.java"
+    },
+    {
+        "description":  "A HIGH severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "HIGH",
+        "title":  "SQL Injection in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in FileUploader.java"
+    },
+    {
+        "description":  "A CRITICAL severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "CRITICAL",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A MEDIUM severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A LOW severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "LOW",
+        "title":  "Insecure Deserialization in FileUploader.java"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in DataParser.java"
+    },
+    {
+        "description":  "A HIGH severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Hardcoded Credentials in application.properties"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in config.yml"
+    },
+    {
+        "description":  "A HIGH severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Hardcoded Credentials in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in AuthService.java"
+    },
+    {
+        "description":  "A CRITICAL severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "CRITICAL",
+        "title":  "Insecure Deserialization in FileUploader.java"
+    },
+    {
+        "description":  "A MEDIUM severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "MEDIUM",
+        "title":  "Command Injection in AuthService.java"
+    },
+    {
+        "description":  "A CRITICAL severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "CRITICAL",
+        "title":  "Weak Cryptography in config.yml"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "HIGH",
+        "title":  "Command Injection in AuthService.java"
+    },
+    {
+        "description":  "A CRITICAL severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "Insecure Deserialization in AuthService.java"
+    },
+    {
+        "description":  "A CRITICAL severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "CRITICAL",
+        "title":  "Cross-Site Scripting (XSS) in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "MEDIUM",
+        "title":  "Hardcoded Credentials in DataParser.java"
+    },
+    {
+        "description":  "A HIGH severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "HIGH",
+        "title":  "Weak Cryptography in DataParser.java"
+    },
+    {
+        "description":  "A LOW severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "SQL Injection in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in AuthService.java"
+    },
+    {
+        "description":  "A MEDIUM severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "HIGH",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A CRITICAL severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "CRITICAL",
+        "title":  "Insecure Deserialization in FileUploader.java"
+    },
+    {
+        "description":  "A HIGH severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Path Traversal in application.properties"
+    },
+    {
+        "description":  "A LOW severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Command Injection in UserController.java"
+    },
+    {
+        "description":  "A LOW severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "SQL Injection in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Missing XML Validation in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in AuthService.java"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Hardcoded Credentials in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "HIGH",
+        "title":  "Missing XML Validation in DataParser.java"
+    },
+    {
+        "description":  "A LOW severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Hardcoded Credentials in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "HIGH",
+        "title":  "SQL Injection in AuthService.java"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Command Injection in pom.xml"
+    },
+    {
+        "description":  "A LOW severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "SQL Injection in DataParser.java"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in application.properties"
+    },
+    {
+        "description":  "A LOW severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "LOW",
+        "title":  "Hardcoded Credentials in application.properties"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in FileUploader.java"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "SQL Injection in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "MEDIUM",
+        "title":  "SQL Injection in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in UserController.java"
+    },
+    {
+        "description":  "A LOW severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A MEDIUM severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "MEDIUM",
+        "title":  "Insecure Deserialization in config.yml"
+    },
+    {
+        "description":  "A HIGH severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "HIGH",
+        "title":  "Insecure Deserialization in AuthService.java"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in application.properties"
+    },
+    {
+        "description":  "A LOW severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Hardcoded Credentials in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "HIGH",
+        "title":  "Path Traversal in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Command Injection in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in config.yml"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in pom.xml"
+    },
+    {
+        "description":  "A LOW severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "SQL Injection in DataParser.java"
+    },
+    {
+        "description":  "A LOW severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "Weak Cryptography in DataParser.java"
+    },
+    {
+        "description":  "A CRITICAL severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "SQL Injection in AuthService.java"
+    },
+    {
+        "description":  "A HIGH severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "HIGH",
+        "title":  "Insecure Deserialization in UserController.java"
+    },
+    {
+        "description":  "A LOW severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "LOW",
+        "title":  "Hardcoded Credentials in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "CRITICAL",
+        "title":  "Hardcoded Credentials in config.yml"
+    },
+    {
+        "description":  "A CRITICAL severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "SQL Injection in application.properties"
+    },
+    {
+        "description":  "A LOW severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "LOW",
+        "title":  "Missing XML Validation in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "MEDIUM",
+        "title":  "Path Traversal in DataParser.java"
+    },
+    {
+        "description":  "A CRITICAL severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "CRITICAL",
+        "title":  "SQL Injection in FileUploader.java"
+    },
+    {
+        "description":  "A LOW severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "LOW",
+        "title":  "Hardcoded Credentials in AuthService.java"
+    },
+    {
+        "description":  "A MEDIUM severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "MEDIUM",
+        "title":  "Hardcoded Credentials in DataParser.java"
+    },
+    {
+        "description":  "A CRITICAL severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "CRITICAL",
+        "title":  "SQL Injection in UserController.java"
+    },
+    {
+        "description":  "A LOW severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "LOW",
+        "title":  "Path Traversal in application.properties"
+    },
+    {
+        "description":  "A CRITICAL severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "CRITICAL",
+        "title":  "Cross-Site Scripting (XSS) in DataParser.java"
+    },
+    {
+        "description":  "A HIGH severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "HIGH",
+        "title":  "Weak Cryptography in UserController.java"
+    },
+    {
+        "description":  "A LOW severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "LOW",
+        "title":  "Missing XML Validation in config.yml"
+    },
+    {
+        "description":  "A LOW severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "LOW",
+        "title":  "Path Traversal in config.yml"
+    },
+    {
+        "description":  "A LOW severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "LOW",
+        "title":  "Hardcoded Credentials in AuthService.java"
+    },
+    {
+        "description":  "A LOW severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "LOW",
+        "title":  "Path Traversal in AuthService.java"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A LOW severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Command Injection in UserController.java"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "HIGH",
+        "title":  "Hardcoded Credentials in config.yml"
+    },
+    {
+        "description":  "A CRITICAL severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "CRITICAL",
+        "title":  "Command Injection in FileUploader.java"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in FileUploader.java"
+    },
+    {
+        "description":  "A LOW severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "LOW",
+        "title":  "Weak Cryptography in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in config.yml"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "CRITICAL",
+        "title":  "Path Traversal in DataParser.java"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in pom.xml"
+    },
+    {
+        "description":  "A CRITICAL severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "Missing XML Validation in AuthService.java"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in config.yml"
+    },
+    {
+        "description":  "A HIGH severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "HIGH",
+        "title":  "Insecure Deserialization in FileUploader.java"
+    },
+    {
+        "description":  "A HIGH severity Hardcoded Credentials vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Hardcoded Credentials in application.properties"
+    },
+    {
+        "description":  "A LOW severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "LOW",
+        "title":  "Command Injection in config.yml"
+    },
+    {
+        "description":  "A CRITICAL severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "CRITICAL",
+        "title":  "Insecure Deserialization in config.yml"
+    },
+    {
+        "description":  "A CRITICAL severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "CRITICAL",
+        "title":  "Weak Cryptography in AuthService.java"
+    },
+    {
+        "description":  "A MEDIUM severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "MEDIUM",
+        "title":  "Command Injection in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "HIGH",
+        "title":  "SQL Injection in FileUploader.java"
+    },
+    {
+        "description":  "A HIGH severity Command Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "HIGH",
+        "title":  "Command Injection in AuthService.java"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in application.properties"
+    },
+    {
+        "description":  "A LOW severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "LOW",
+        "title":  "Weak Cryptography in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Path Traversal in pom.xml"
+    },
+    {
+        "description":  "A MEDIUM severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "MEDIUM",
+        "title":  "Path Traversal in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "MEDIUM",
+        "title":  "Missing XML Validation in config.yml"
+    },
+    {
+        "description":  "A LOW severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "LOW",
+        "title":  "Cross-Site Scripting (XSS) in application.properties"
+    },
+    {
+        "description":  "A LOW severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/UserController.java",
+        "severity":  "LOW",
+        "title":  "Path Traversal in UserController.java"
+    },
+    {
+        "description":  "A HIGH severity Path Traversal vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/DataParser.java",
+        "severity":  "HIGH",
+        "title":  "Path Traversal in DataParser.java"
+    },
+    {
+        "description":  "A MEDIUM severity Weak Cryptography vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S3649",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "MEDIUM",
+        "title":  "Weak Cryptography in config.yml"
+    },
+    {
+        "description":  "A MEDIUM severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S2068",
+        "filePath":  "src/main/java/com/example/FileUploader.java",
+        "severity":  "MEDIUM",
+        "title":  "Cross-Site Scripting (XSS) in FileUploader.java"
+    },
+    {
+        "description":  "A HIGH severity SQL Injection vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "SQL Injection in application.properties"
+    },
+    {
+        "description":  "A LOW severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S134",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "LOW",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Missing XML Validation vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/application.properties",
+        "severity":  "HIGH",
+        "title":  "Missing XML Validation in application.properties"
+    },
+    {
+        "description":  "A HIGH severity Cross-Site Scripting (XSS) vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S106",
+        "filePath":  "src/main/java/com/example/config.yml",
+        "severity":  "HIGH",
+        "title":  "Cross-Site Scripting (XSS) in config.yml"
+    },
+    {
+        "description":  "A MEDIUM severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/pom.xml",
+        "severity":  "MEDIUM",
+        "title":  "Insecure Deserialization in pom.xml"
+    },
+    {
+        "description":  "A HIGH severity Insecure Deserialization vulnerability was found.",
+        "source":  "SonarQube",
+        "rule":  "java:S5131",
+        "filePath":  "src/main/java/com/example/AuthService.java",
+        "severity":  "HIGH",
+        "title":  "Insecure Deserialization in AuthService.java"
+    }
+]
