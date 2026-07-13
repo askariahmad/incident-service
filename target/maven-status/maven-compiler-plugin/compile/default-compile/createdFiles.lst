@@ -1,4 +1,0 @@
-com\devops\incident\IncidentApplication.class
-com\devops\incident\repository\IncidentRepository.class
-com\devops\incident\controller\IncidentController.class
-com\devops\incident\model\LogIssue.class

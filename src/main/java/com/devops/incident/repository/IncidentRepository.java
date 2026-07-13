@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface IncidentRepository extends MongoRepository<LogIssue, String> {
     List<LogIssue> findByTenantId(String tenantId);
+    List<LogIssue> findByTenantIdAndTypeAndRepository(String tenantId, String type, String repository);
+    List<LogIssue> findByTenantIdAndRepository(String tenantId, String repository);
 }
