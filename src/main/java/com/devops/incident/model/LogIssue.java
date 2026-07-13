@@ -151,4 +151,8 @@ public class LogIssue {
 
     public Date getLastSeen() { return lastSeen; }
     public void setLastSeen(Date lastSeen) { this.lastSeen = lastSeen; }
+
+    private String sonarIssueKey;
+    public String getSonarIssueKey() { return sonarIssueKey; }
+    public void setSonarIssueKey(String sonarIssueKey) { this.sonarIssueKey = sonarIssueKey; }
 }
