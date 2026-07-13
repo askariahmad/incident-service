@@ -31,7 +31,7 @@ public class JiraSyncService {
     }
     
     // config-service URL
-    private final String CONFIG_SERVICE_URL = "http://localhost:8082/api/v1/config";
+    private final String CONFIG_SERVICE_URL = "http://config-service:8082/api/v1/config";
 
     public Mono<SystemConfigDto> getConfig(String tenantId) {
         return webClient.get()
