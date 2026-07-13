@@ -1,6 +1,5 @@
 package com.devops.incident.service;
 
-import lombok.Data;
 
 public class SystemConfigDto {
     private String jiraUrl;
@@ -18,4 +17,11 @@ public class SystemConfigDto {
     
     public String getJiraProjectKey() { return jiraProjectKey; }
     public void setJiraProjectKey(String jiraProjectKey) { this.jiraProjectKey = jiraProjectKey; }
+    
+    private String sonarUrl;
+    private String sonarToken;
+    public String getSonarUrl() { return sonarUrl; }
+    public void setSonarUrl(String sonarUrl) { this.sonarUrl = sonarUrl; }
+    public String getSonarToken() { return sonarToken; }
+    public void setSonarToken(String sonarToken) { this.sonarToken = sonarToken; }
 }
