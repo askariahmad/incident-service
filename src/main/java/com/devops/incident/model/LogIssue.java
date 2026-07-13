@@ -27,6 +27,7 @@ public class LogIssue {
     private String filePath;   // File path in the repo
     
     private String rule;
+    private String organization;
     private Integer startLine;
     private Integer endLine;
     private String exactCodeFix;
@@ -104,6 +105,9 @@ public class LogIssue {
 
     public String getRule() { return rule; }
     public void setRule(String rule) { this.rule = rule; }
+
+    public String getOrganization() { return organization; }
+    public void setOrganization(String organization) { this.organization = organization; }
 
     public Integer getStartLine() { return startLine; }
     public void setStartLine(Integer startLine) { this.startLine = startLine; }
