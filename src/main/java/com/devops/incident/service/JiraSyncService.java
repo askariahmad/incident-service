@@ -80,13 +80,7 @@ public class JiraSyncService {
                 Map<String, Object> body = new HashMap<>();
                 body.put("fields", fields);
 
-                String authHeader;
-                if (config.getJiraEmail() != null && !config.getJiraEmail().isEmpty()) {
-                    String authStr = config.getJiraEmail() + ":" + config.getJiraToken();
-                    authHeader = "Basic " + Base64.getEncoder().encodeToString(authStr.getBytes(java.nio.charset.StandardCharsets.UTF_8));
-                } else {
-                    authHeader = "Bearer " + config.getJiraToken();
-                }
+                String authHeader = getAuthHeader(config);
 
                 String baseUrl = config.getJiraUrl().endsWith("/")
                         ? config.getJiraUrl().substring(0, config.getJiraUrl().length() - 1)
@@ -360,7 +354,7 @@ public class JiraSyncService {
         });
     }
 
-    public Mono<Void> transitionIssue(LogIssue issue, String transitionId) {
+    public Mono<Void> transitionIssue(LogIssue issue, String transitionId, String transitionName) {
         if (issue.getJiraTicketKey() == null) return Mono.empty();
         
         return getConfig(issue.getTenantId()).flatMap(config -> {
@@ -380,7 +374,10 @@ public class JiraSyncService {
                         .bodyValue(body)
                         .retrieve()
                         .bodyToMono(Void.class)
-                        .doOnSuccess(v -> log.info("Successfully transitioned Jira ticket {}", issue.getJiraTicketKey()))
+                        .doOnSuccess(v -> {
+                            log.info("Successfully transitioned Jira ticket {}", issue.getJiraTicketKey());
+                            syncToSonar(issue, transitionName, config).subscribe();
+                        })
                         .onErrorResume(e -> {
                             log.error("Error transitioning Jira {}: {}", issue.getJiraTicketKey(), e.getMessage());
                             return Mono.empty();
@@ -388,6 +385,46 @@ public class JiraSyncService {
             }
             return Mono.empty();
         });
+    }
+
+    private Mono<Void> syncToSonar(LogIssue issue, String transitionName, SystemConfigDto config) {
+        if (issue.getSonarIssueKey() == null || config.getSonarUrl() == null || config.getSonarToken() == null) {
+            return Mono.empty();
+        }
+        
+        String sonarTransition = null;
+        if (transitionName != null) {
+            String lower = transitionName.toLowerCase();
+            if (lower.contains("done") || lower.contains("resolved")) {
+                sonarTransition = "resolve";
+            } else if (lower.contains("to do") || lower.contains("open")) {
+                sonarTransition = "reopen";
+            } else if (lower.contains("won't do") || lower.contains("wontfix")) {
+                sonarTransition = "wontfix";
+            }
+        }
+        
+        if (sonarTransition == null) {
+            return Mono.empty(); // No mapping found
+        }
+        
+        String url = config.getSonarUrl();
+        if (url.endsWith("/")) url = url.substring(0, url.length() - 1);
+        String apiUrl = url + "/api/issues/do_transition?issue=" + issue.getSonarIssueKey() + "&transition=" + sonarTransition;
+        
+        String authStr = config.getSonarToken() + ":";
+        String encoded = Base64.getEncoder().encodeToString(authStr.getBytes(java.nio.charset.StandardCharsets.UTF_8));
+        
+        return webClient.post()
+                .uri(apiUrl)
+                .header(HttpHeaders.AUTHORIZATION, "Basic " + encoded)
+                .retrieve()
+                .bodyToMono(Void.class)
+                .doOnSuccess(v -> log.info("Successfully synced transition {} to Sonar issue {}", sonarTransition, issue.getSonarIssueKey()))
+                .onErrorResume(e -> {
+                    log.error("Error transitioning Sonar issue {}: {}", issue.getSonarIssueKey(), e.getMessage());
+                    return Mono.empty();
+                });
     }
     
     private String getAuthHeader(SystemConfigDto config) {

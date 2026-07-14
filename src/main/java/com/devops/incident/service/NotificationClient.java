@@ -17,7 +17,7 @@ public class NotificationClient {
 
     private final WebClient.Builder webClientBuilder = WebClient.builder();
 
-    @Value("${services.notification-url:http://notification-service:8088/api/v1/notifications}")
+    @Value("${services.notification-url:http://notification-service:8086/api/v1/notifications}")
     private String notificationUrl;
 
     public void sendNotification(String tenantId, String title, String message, String type) {

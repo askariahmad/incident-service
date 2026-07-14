@@ -173,6 +173,7 @@ public class IncidentController {
     @PostMapping("/{id}/jira/transitions")
     public reactor.core.publisher.Mono<ResponseEntity<Void>> transitionJiraTicket(@PathVariable String id, @RequestBody java.util.Map<String, String> body) {
         String transitionId = body.get("transitionId");
+        String transitionName = body.get("transitionName");
         if (transitionId == null) return reactor.core.publisher.Mono.just(ResponseEntity.badRequest().build());
         
         java.util.Optional<LogIssue> issueOpt = incidentRepository.findById(id);
@@ -180,7 +181,7 @@ public class IncidentController {
             return reactor.core.publisher.Mono.just(ResponseEntity.notFound().build());
         }
         // Transition then sync back to get new status
-        return jiraSyncService.transitionIssue(issueOpt.get(), transitionId)
+        return jiraSyncService.transitionIssue(issueOpt.get(), transitionId, transitionName)
                 .then(jiraSyncService.forceSync(issueOpt.get()))
                 .thenReturn(ResponseEntity.ok().<Void>build());
     }
