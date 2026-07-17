@@ -392,21 +392,23 @@ public class JiraSyncService {
             return Mono.empty();
         }
         
-        String sonarTransition = null;
+        String tempSonarTransition = null;
         if (transitionName != null) {
             String lower = transitionName.toLowerCase();
             if (lower.contains("done") || lower.contains("resolved")) {
-                sonarTransition = "resolve";
+                tempSonarTransition = "resolve";
             } else if (lower.contains("to do") || lower.contains("open")) {
-                sonarTransition = "reopen";
+                tempSonarTransition = "reopen";
             } else if (lower.contains("won't do") || lower.contains("wontfix")) {
-                sonarTransition = "wontfix";
+                tempSonarTransition = "wontfix";
             }
         }
         
-        if (sonarTransition == null) {
+        if (tempSonarTransition == null) {
             return Mono.empty(); // No mapping found
         }
+        
+        final String sonarTransition = tempSonarTransition;
         
         String url = config.getSonarUrl();
         if (url.endsWith("/")) url = url.substring(0, url.length() - 1);
